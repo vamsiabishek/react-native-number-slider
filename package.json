@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "This component allows you to create a sliding number selector",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vamsiabishek/react-native-number-slider.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,5 +30,8 @@
   "license": "ISC",
   "devDependencies": {
     "metro-react-native-babel-preset": "^0.59.0"
+  },
+  "dependencies": {
+    "prop-types": "15.7.2"
   }
 }

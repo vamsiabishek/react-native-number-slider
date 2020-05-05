@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 import {View, Animated, StyleSheet, TouchableOpacity} from 'react-native';
 
 const createStyles = ({
@@ -13,7 +14,7 @@ const createStyles = ({
       width: totalWidth,
       height,
       borderRadius: height / 2,
-      backgroundColor: containerBackground, //'#f1f2f6',
+      backgroundColor: containerBackground,
       justifyContent: 'center',
       alignItems: 'center',
     },
@@ -150,6 +151,16 @@ class NumberSlider extends Component {
       </View>
     );
   }
+}
+
+NumberSlider.propTypes = {
+  width: PropTypes.number,
+  displayValues: PropTypes.arrayOf(PropTypes.number),
+  value: PropTypes.number,
+  fontSize: PropTypes.number,
+  containerBackground: PropTypes.string,
+  selectedBackground: PropTypes.string,
+  onValueChange: PropTypes.func.isRequired,
 }
 
 NumberSlider.defaultProps = {
