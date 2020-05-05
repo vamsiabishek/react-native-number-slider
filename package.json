@@ -1,0 +1,30 @@
+{
+  "name": "react-native-number-slider",
+  "version": "1.0.0",
+  "description": "This component allows you to create a sliding number selector",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native-number-slider",
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "react native",
+    "mobile",
+    "ios",
+    "android",
+    "ui",
+    "npm",
+    "react-native-number-slider",
+    "number",
+    "slider"
+  ],
+  "author": "Vamsi Abishek Pudoor",
+  "license": "ISC",
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.59.0"
+  }
+}
