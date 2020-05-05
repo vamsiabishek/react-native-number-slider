@@ -2,4 +2,4 @@
 Number slider component created in React Native
 
 # Demo
-![](demo/demo.gif)
+<image src='demo/demo.gif' width='200'/>
